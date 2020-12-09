@@ -1,14 +1,15 @@
 
-
+/* background image */
 body {
     background-image: url("background2.jpg"); 
     margin: 0;
 }
-
+/* navbar container color */
 .navbarName {
     background-color: #4682B4;
     
 }
+/* name in left corner of navbar */
 .navbarName h1 {
     padding-left: 10px;
     color:white;
@@ -21,7 +22,7 @@ body {
     padding: auto;
     margin: auto;
 }
-
+/* color for h1 main container */
 .aboutMe h1 {
     color: #4682B4;
 }
@@ -50,7 +51,7 @@ body {
     height: auto;
     float:left;
 }
-
+/* button for contact info styling */
 button[type="submit"] {
     background-color: #4682B4;
     color: #ffffff;
@@ -61,7 +62,7 @@ button[type="submit"] {
 
   }
 
-
+/* media query settings */
 @media screen and (max-width: 620px) {
 
      .column {
